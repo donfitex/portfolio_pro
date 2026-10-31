@@ -6,11 +6,13 @@ from portfolio.models import Project, Contact
 @override_settings(SECURE_SSL_REDIRECT=False, STATICFILES_STORAGE='django.contrib.staticfiles.storage.StaticFilesStorage')
 class PortfolioTests(TestCase):
     def test_public_browsing_and_hidden_projects(self):
-        Project.objects.create(title='Visible', description='<script>alert(1)</script>')
+        Project.objects.create(title='Visible', description='<script>alert(1)</script>', tech_stack='Python, Django')
         Project.objects.create(title='Hidden', description='private', published=False)
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'Visible')
+        self.assertContains(response, '<li>Python</li>', html=True)
+        self.assertContains(response, '<li>Django</li>', html=True)
         self.assertNotContains(response, '<script>alert(1)</script>')
         self.assertNotContains(response, '>Hidden<')
         response = self.client.get('/api/projects/')

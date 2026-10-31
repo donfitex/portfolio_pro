@@ -10,7 +10,7 @@ Run `python manage.py migrate`, `python manage.py seed_portfolio`, `python manag
 
 ## Edit your portfolio
 
-Open `/admin/` and sign in with your own superuser. Edit projects, descriptions, categories, source/live/video demo links, featured status, publishing and display order. Add About and Skills entries. Contact messages appear in the private Contacts inbox; they are stored in the database, not emailed. Public visitors do not need an account. Only staff can edit; no public signup.
+Open `/admin/` and sign in with your own superuser. Edit projects, descriptions, comma-separated technology stacks, categories, source/live/video demo and GitHub README links, featured status, publishing and display order. Add About and Skills entries. Contact messages appear in the private Contacts inbox; they are stored in the database, not emailed. Public visitors do not need an account. Only staff can edit; no public signup.
 
 The seed contains all public GitHub repositories reviewed at setup, with live URLs from repository READMEs and connected Render services. Private repositories are excluded from publication. Links are supplied by those sources and may be unavailable if an external host is sleeping. No demo URL is invented. The initial seed never overwrites edits or deletes projects; adding future repositories requires adding a Project in the studio or updating the reviewed JSON seed. A real resume can be linked after you supply one; the original PDF was empty.
 

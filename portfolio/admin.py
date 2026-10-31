@@ -7,7 +7,7 @@ class ProjectAdmin(admin.ModelAdmin):
     list_display = ('title', 'category', 'featured', 'published', 'sort_order')
     list_editable = ('featured', 'published', 'sort_order')
     list_filter = ('category', 'published', 'featured')
-    search_fields = ('title', 'description')
+    search_fields = ('title', 'description', 'tech_stack')
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     list_display = ('name', 'email', 'created_at')

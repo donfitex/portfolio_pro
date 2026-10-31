@@ -21,6 +21,14 @@ class Project(models.Model):
     github_link = models.URLField(blank=True, null=True)
     live_demo_link = models.URLField(blank=True, null=True)
 
+    tech_stack = models.CharField(max_length=500, blank=True, help_text='Comma-separated technology names')
+
+    readme_link = models.URLField(blank=True, help_text='Link to the project README on GitHub')
+
+    @property
+    def technologies(self):
+        return [name.strip() for name in self.tech_stack.split(',') if name.strip()]
+
     category = models.CharField(max_length=80, default='Development')
     featured = models.BooleanField(default=False)
     published = models.BooleanField(default=True)
