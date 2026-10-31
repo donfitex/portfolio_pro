@@ -1,0 +1,254 @@
+[
+  {
+    "title": "todo api",
+    "description": "Explore the source, implementation and development notes for todo api on GitHub.",
+    "github_link": "https://github.com/donfitex/todo-api",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Backend & APIs"
+  },
+  {
+    "title": "ecommerce api",
+    "description": "A secure RESTful backend for an online store, built with Django and Django REST Framework (DRF).",
+    "github_link": "https://github.com/donfitex/ecommerce_api",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Backend & APIs"
+  },
+  {
+    "title": "gender classifier api",
+    "description": "A Django REST API that classifies names by gender using the Genderize API, with additional processing and validation.",
+    "github_link": "https://github.com/donfitex/gender-classifier-api",
+    "live_demo_link": "https://gender-classifier-api-production.up.railway.app/",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Backend & APIs"
+  },
+  {
+    "title": "AI document extraction API",
+    "description": "Explore the source, implementation and development notes for AI document extraction API on GitHub.",
+    "github_link": "https://github.com/donfitex/AI-document-extraction-API",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Backend & APIs"
+  },
+  {
+    "title": "insighta cli",
+    "description": "Explore the source, implementation and development notes for insighta cli on GitHub.",
+    "github_link": "https://github.com/donfitex/insighta-cli",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Tools & experiments"
+  },
+  {
+    "title": "Full Stack Web App",
+    "description": "A full-stack Web App with Django REST Framework and React",
+    "github_link": "https://github.com/donfitex/Full-Stack-Web-App",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "xrwvm fullstack developer capstone",
+    "description": "Explore the source, implementation and development notes for xrwvm fullstack developer capstone on GitHub.",
+    "github_link": "https://github.com/donfitex/xrwvm-fullstack_developer_capstone",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "newshub pro",
+    "description": "A production-ready news and magazine platform built with Django",
+    "github_link": "https://github.com/donfitex/newshub-pro",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "Global news AI",
+    "description": "Explore the source, implementation and development notes for Global news AI on GitHub.",
+    "github_link": "https://github.com/donfitex/Global_news_AI",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "py statistics",
+    "description": "1. Install Python 3 and PostgreSQL.",
+    "github_link": "https://github.com/donfitex/py_statistics",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Tools & experiments"
+  },
+  {
+    "title": "mileage tracker",
+    "description": "Explore the source, implementation and development notes for mileage tracker on GitHub.",
+    "github_link": "https://github.com/donfitex/mileage_tracker",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "shopsphere",
+    "description": "Explore the source, implementation and development notes for shopsphere on GitHub.",
+    "github_link": "https://github.com/donfitex/shopsphere",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "todo app",
+    "description": "A clean, fast todo list that runs entirely in the browser. No installs, no build step, no dependencies.",
+    "github_link": "https://github.com/donfitex/todo-app",
+    "live_demo_link": "https://donfitex.netlify.app/",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "e Shop",
+    "description": "2. Copy `.env.example` to `.env` and fill it in (Supabase, Mailgun, ADMIN_EMAILS, optional Paystack and WhatsApp number).",
+    "github_link": "https://github.com/donfitex/e_Shop",
+    "live_demo_link": "https://e-shop-zmlm.onrender.com",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "rblink.chat",
+    "description": "Built in Step 1 (all covered by `npm test`):",
+    "github_link": "https://github.com/donfitex/rblink.chat",
+    "live_demo_link": "https://rblink-chat.onrender.com",
+    "featured": true,
+    "sort_order": 3,
+    "category": "Web applications"
+  },
+  {
+    "title": "mama voice",
+    "description": "Research prototype: speech-in, speech-out maternal health Q&A for Yoruba, Hausa, Igbo and English, built",
+    "github_link": "https://github.com/donfitex/mama-voice",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "portfolio",
+    "description": "Explore the source, implementation and development notes for portfolio on GitHub.",
+    "github_link": "https://github.com/donfitex/portfolio",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "athletehub ai",
+    "description": "- Web frontend: Next.js + TypeScript + Tailwind CSS",
+    "github_link": "https://github.com/donfitex/athletehub-ai",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "donfitex",
+    "description": "- **Languages:** Python, JavaScript, TypeScript, SQL, HTML, CSS",
+    "github_link": "https://github.com/donfitex/donfitex",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "election results",
+    "description": "Three pages on top of the `bincom_test.sql` database (Delta State, 2011 dummy results).",
+    "github_link": "https://github.com/donfitex/election_results",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "Fleetops Cloud",
+    "description": "FleetOps Cloud is a professional, scalable, secure, multi-tenant SaaS platform for fleet and vehicle operations management built with Python, Django, PostgreSQL, Tailwind CSS, HTMX, Alpine.js, and Chart.js.",
+    "github_link": "https://github.com/donfitex/Fleetops-Cloud",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "CodeAlpha url shortener",
+    "description": "A production-ready URL shortener built with Flask. Paste a long link, get a short one, share it.",
+    "github_link": "https://github.com/donfitex/CodeAlpha_url-shortener",
+    "live_demo_link": "https://linkforge-o51b.onrender.com",
+    "featured": true,
+    "sort_order": 5,
+    "category": "Web applications"
+  },
+  {
+    "title": "zesthr django",
+    "description": "HROS manages employee records, attendance, leave, reviewed payroll, private employee documents, notifications, and audit reporting. It runs as a Django modular monolith with PostgreSQL in production and SQLite for development.",
+    "github_link": "https://github.com/donfitex/zesthr-django",
+    "live_demo_link": "https://zesthr-django.onrender.com",
+    "featured": true,
+    "sort_order": 4,
+    "category": "Web applications"
+  },
+  {
+    "title": "RestaurantOS",
+    "description": "A modular Django platform for restaurant and branch operations: menus, ordering, kitchen workflow, reservations, table management, recipes, inventory, payments, reporting, and staff permissions.",
+    "github_link": "https://github.com/donfitex/RestaurantOS",
+    "live_demo_link": "https://restaurantos-web-lgrx.onrender.com",
+    "featured": true,
+    "sort_order": 0,
+    "category": "Web applications"
+  },
+  {
+    "title": "event hub",
+    "description": "Event registration and management platform built with Django and DRF.",
+    "github_link": "https://github.com/donfitex/event_hub",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "talent bridge",
+    "description": "A Django recruitment platform with job discovery, company hiring workspaces,",
+    "github_link": "https://github.com/donfitex/talent-bridge",
+    "live_demo_link": "https://talent-bridge-6um8.onrender.com",
+    "featured": true,
+    "sort_order": 1,
+    "category": "Web applications"
+  },
+  {
+    "title": "obs e com",
+    "description": "A tested, secured, observable e-commerce API with asynchronous order processing,",
+    "github_link": "https://github.com/donfitex/obs-e-com",
+    "live_demo_link": "",
+    "featured": false,
+    "sort_order": 100,
+    "category": "Web applications"
+  },
+  {
+    "title": "e com glo",
+    "description": "Requires Node.js 22+, npm and Docker Compose v2.",
+    "github_link": "https://github.com/donfitex/e-com-glo",
+    "live_demo_link": "https://e-com-global-staging.onrender.com",
+    "featured": true,
+    "sort_order": 2,
+    "category": "Web applications"
+  }
+]

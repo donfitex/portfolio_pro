@@ -17,6 +17,9 @@ class ProjectSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 class ContactSerializer(serializers.ModelSerializer):
+    name = serializers.CharField(max_length=100)
+    email = serializers.EmailField(max_length=254)
+    message = serializers.CharField(max_length=5000, min_length=10)
     class Meta:
         model = Contact
-        fields = "__all__"
+        fields = ('name', 'email', 'message')

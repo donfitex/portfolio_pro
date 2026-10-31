@@ -21,6 +21,15 @@ class Project(models.Model):
     github_link = models.URLField(blank=True, null=True)
     live_demo_link = models.URLField(blank=True, null=True)
 
+    category = models.CharField(max_length=80, default='Development')
+    featured = models.BooleanField(default=False)
+    published = models.BooleanField(default=True)
+    sort_order = models.PositiveIntegerField(default=100)
+    demo_link = models.URLField(blank=True)
+
+    class Meta:
+        ordering = ['sort_order', 'title']
+
     def __str__(self):
         return self.title
     
